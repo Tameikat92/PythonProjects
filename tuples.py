@@ -50,7 +50,9 @@ c = {
     'b': 1,
     'c': 22
 }
-print(sorted( [ (v,k) for k,v in c.items() ] ))
+
+
+print(sorted( ([ (v,k) for k,v in c.items() ]) , reverse=True) )
 
 x,y = 3,4
 print(y)
